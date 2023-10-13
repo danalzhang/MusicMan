@@ -5,8 +5,8 @@ from spotipy.oauth2 import SpotifyOAuth
 from spotipy import Spotify
 
 # Define your client ID, client secret, and redirect URI
-client_id = "7de8799313714e4e987d0edf56bc9503"
-client_secret = "070d3e88774d47a8a1d5921ff7bbd2d1"
+client_id = "MY_ID"
+client_secret = "MY_SECRET_ID"
 redirect_uri = "https://accounts.spotify.com/en/login?flow_ctx=ff6d1333-3803-4bf3-bb39-203f1eede22c:1697002799"
 
 # Create a SpotifyOAuth instance
@@ -35,7 +35,7 @@ print(results)
 
 
 def recommend_songs(user_response):
-    co = cohere.Client('aYJ8rezd2aYX1737eDEPAKexziGnJb59acmz3Hno')
+    co = cohere.Client('COHERE_ID')
     classifications = co.classify(
         model='embed-english-v2.0',
         inputs=["I did not fail the test today", "I failed my math test today","4/10"],
