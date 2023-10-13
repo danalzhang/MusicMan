@@ -1,6 +1,6 @@
 import cohere
 from cohere.responses.classify import Example
-co = cohere.Client('aYJ8rezd2aYX1737eDEPAKexziGnJb59acmz3Hno')
+co = cohere.Client('PERSONAL_KEY')
 classifications = co.classify(
   model='embed-english-v2.0',
   inputs=["This item was broken when it arrived", "This item broke after 3 weeks"],
