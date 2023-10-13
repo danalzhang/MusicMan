@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "cohere": "^1.1.1",
+    "requests": "^0.3.0"
+  }
+}
