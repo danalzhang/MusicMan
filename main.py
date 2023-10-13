@@ -6,8 +6,8 @@ from datetime import datetime, timedelta
 app = Flask(__name__)
 app.secret_key = '1203120938120481048'
 
-CLIENT_ID = '7de8799313714e4e987d0edf56bc9503'
-CLIENT_SECRET = '070d3e88774d47a8a1d5921ff7bbd2d1'
+CLIENT_ID = 'MY_ID'
+CLIENT_SECRET = 'MY_SECRET_ID'
 REDIRECT_URI = 'http://localhost:8080/callback'
 
 AUTH_URL = "https://accounts.spotify.com/authorize"
